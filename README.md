@@ -62,3 +62,5 @@ Bracket expressions represent a range of charactes we want to match within a set
  ### Greedy and Lazy Match
 In regular expressions, a greedy quanitfier ('+' and 'asteric ') will match as many characters as possible while still allowing the match to succeed. A lazy quantifier adds a '?' to the end and will match as few characters as possible.<br>
 Example: \w+?, \w*?
+### Boundaries
+Boundary markers like ^ or a dollar sign allows you to anchor the expression pattern to the beginning and end of the line respectively. This means that when you want to match a literal ^ or $ , you need to escape these special characters with a backslash.

@@ -29,3 +29,9 @@ Here's a breakdown of what each part of the regex does:<br><br>
 ### Anchors
 Anchors generally consist of 2 character within the expression. '^' Matches the beginning of a string and '/$/' matches the end of the string.
 
+### Quantifiers
+The first '?' considers the 's' in 'https' as optional, since some links contain http or https and would want the regex to find both. Here is a more cut and dry example:<br>
+
+(https?://)? matches an optional "http://" or "https://" at the beginning of the URL.<br>
+
+The \w grouping allows any alphanumeric characters.

@@ -64,3 +64,8 @@ In regular expressions, a greedy quanitfier ('+' and 'asteric ') will match as m
 Example: \w+?, \w*?
 ### Boundaries
 Boundary markers like ^ or a dollar sign allows you to anchor the expression pattern to the beginning and end of the line respectively. This means that when you want to match a literal ^ or $ , you need to escape these special characters with a backslash.
+## Author
+
+https://github.com/MatthewC86
+
+https://github.com/MatthewC86/regex-tutorial

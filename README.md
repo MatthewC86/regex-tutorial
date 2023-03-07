@@ -41,3 +41,9 @@ A character class is a set of characters enclosed within square brackets. It spe
 '([\da-z.-]+)'<br>
 
 This will match one or more characters that are either digits, lowercase letters, periods or hyphens. 
+### Flags
+A flag is an optional perameter that modifies its search behavior. By using i, g, or m flags at the end of the URL, we can capture multiple links that are line broken:<br>
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/gm<br>
+
+  www.webaddress.com<br>
+  www.webaddress.com

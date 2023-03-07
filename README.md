@@ -47,3 +47,9 @@ A flag is an optional perameter that modifies its search behavior. By using i, g
 
   www.webaddress.com<br>
   www.webaddress.com
+### Grouping and Capturing
+The following expression has four different groups:<br><li>
+(https?://) - Matches the optional http portion.<li>
+([\da-z.-]+) - Captures a domain name with any characters followed by a ".".<li> 
+([a-z.]{2,6}) - Matches two to six characters either being lowercase letters or periods. This captures the top-level domain. An example would be: "com", "edu", "gov".<li>
+([/\w .-]) - Matches an optional path that starts with a "/" and can contain any combination of word characters, spaces, periods, hyphens, and forward slashes.

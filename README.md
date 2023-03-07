@@ -24,3 +24,8 @@ Here's a breakdown of what each part of the regex does:<br><br>
 - [Boundaries](#boundaries)
 
 
+## Regex Components
+
+### Anchors
+Anchors generally consist of 2 character within the expression. '^' Matches the beginning of a string and '/$/' matches the end of the string.
+

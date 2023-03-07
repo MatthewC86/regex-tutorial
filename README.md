@@ -59,4 +59,6 @@ Bracket expressions represent a range of charactes we want to match within a set
 
  This is used to identify which part of the expression can be any or all characters. The reference above is looking for any digit, any a-z, "." or "_".
 
- 
+ ### Greedy and Lazy Match
+In regular expressions, a greedy quanitfier ('+' and 'asteric ') will match as many characters as possible while still allowing the match to succeed. A lazy quantifier adds a '?' to the end and will match as few characters as possible.<br>
+Example: \w+?, \w*?

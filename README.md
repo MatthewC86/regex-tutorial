@@ -35,3 +35,9 @@ The first '?' considers the 's' in 'https' as optional, since some links contain
 (https?://)? matches an optional "http://" or "https://" at the beginning of the URL.<br>
 
 The \w grouping allows any alphanumeric characters.
+### Character Classes
+A character class is a set of characters enclosed within square brackets. It specifies the characters that will successfully match a single character from a given input string. Here we have:<br>
+
+'([\da-z.-]+)'<br>
+
+This will match one or more characters that are either digits, lowercase letters, periods or hyphens. 

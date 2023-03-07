@@ -12,3 +12,15 @@ The following regular expression is a pattern used for matching URLs:<br>
 
 Here's a breakdown of what each part of the regex does:<br><br>
 
+## Table of Contents
+
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [Character Classes](#character-classes)
+- [Flags](#flags)
+- [Grouping and Capturing](#grouping-and-capturing)
+- [Bracket Expressions](#bracket-expressions)
+- [Greedy and Lazy Match](#greedy-and-lazy-match)
+- [Boundaries](#boundaries)
+
+

@@ -53,3 +53,10 @@ The following expression has four different groups:<br><li>
 ([\da-z.-]+) - Captures a domain name with any characters followed by a ".".<li> 
 ([a-z.]{2,6}) - Matches two to six characters either being lowercase letters or periods. This captures the top-level domain. An example would be: "com", "edu", "gov".<li>
 ([/\w .-]) - Matches an optional path that starts with a "/" and can contain any combination of word characters, spaces, periods, hyphens, and forward slashes.
+### Bracket Expressions
+Bracket expressions represent a range of charactes we want to match within a set of square brackets '([])'. Here is the bracket expression within this regex:<br>
+ [\da-z\.-] and ([a-z\.]{2,6} and [\/\w \.-]<br>
+
+ This is used to identify which part of the expression can be any or all characters. The reference above is looking for any digit, any a-z, "." or "_".
+
+ 

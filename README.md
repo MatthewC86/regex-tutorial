@@ -8,7 +8,7 @@ This is a breakdown of the regular expression for matching a URL.
 A regex, which is short for regular expression, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
 
 The following regular expression is a pattern used for matching URLs:<br>
-/^(https?://)?([\da-z.-]+).([a-z.]{2,6})([/\w .-])/?$/<br><br>
+![image](https://user-images.githubusercontent.com/114010089/223305516-ad8b332f-afeb-4428-8bb0-b6f56dfa1531.png)<br><br>
 
 Here's a breakdown of what each part of the regex does:<br><br>
 
@@ -38,7 +38,7 @@ The \w grouping allows any alphanumeric characters.
 ### Character Classes
 A character class is a set of characters enclosed within square brackets. It specifies the characters that will successfully match a single character from a given input string. Here we have:<br>
 
-'([\da-z.-]+)'<br>
+![image](https://user-images.githubusercontent.com/114010089/223305623-7dc04d09-9ee5-43c5-a2ad-42ae792b91d8.png)<br>
 
 This will match one or more characters that are either digits, lowercase letters, periods or hyphens. 
 ### Flags
